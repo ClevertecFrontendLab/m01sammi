@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logoPng from '../../assets/img/logo.png'
+import logoPng from '../../assets/img/Logo.png'
 import styles from './Navigation.module.scss'
 import calendarPng from '../../assets/img/calendar.png'
 import trainingPng from '../../assets/img/training.png'
