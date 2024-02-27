@@ -1,0 +1,63 @@
+.success__block {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.success__form{
+    width: 368px;
+    margin: 64px 85px 64px 85px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        padding-bottom: 30px;
+    }
+
+    h3{
+        margin: 0;
+    }
+    
+    p{
+        text-align: center;
+    }
+
+    Button{
+        height: 40px;
+
+        P{
+            color : white;
+            padding: 10px 0 10px 0;
+        }
+    }
+}
+
+.background{
+    background-image: url(../../assets/img/Enter_page_light.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // filter: blur(15px);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+
+    .success__form{
+        width: 296px;
+        margin: 32px 16px 32px 16px;
+    }
+}

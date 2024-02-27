@@ -13,7 +13,6 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint:css": "stylelint './src/**/*.{css,scss,less}'",
-
     "lint:scripts": "eslint ./ ./src/ --ext .js,.jsx,.ts,.tsx",
     "lint": "yarn lint:css && yarn lint:scripts",
     "lint:fix": "yarn lint:css --fix && yarn lint:scripts --fix",
@@ -33,6 +32,8 @@
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.1",
+    "react-verification-input": "^4.1.0",
+    "redux-first-history": "^5.2.0",
     "sass": "^1.70.0"
   },
   "devDependencies": {
