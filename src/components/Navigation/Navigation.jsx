@@ -9,6 +9,7 @@ import exitPng from '../../assets/img/exit.png'
 import closePng from '../../assets/img/close.png'
 import { useState } from 'react'    
 import smallLogo from '../../assets/img/smallLogo.png'
+import { Link } from 'react-router-dom'
 
 export const Navigation = () => {
     const [isOpen, setIsOpen] = React.useState(true);
@@ -63,10 +64,12 @@ export const Navigation = () => {
                         <p>Профиль</p>
                     </div>
                 </div>
+                <Link to='/auth/login'>
                     <div className={styles.exit}>
                         <img src={exitPng} alt='exit'/>
                         <p>Выход</p>
                     </div>
+                </Link>
             </div>
         </div>
         <div className={ isOpen ? styles.navigation_button : styles.navigation_button_close} onClick={toggleNavigation} data-test-id={isMobile?'sider-switch-mobile':'sider-switch'}>
